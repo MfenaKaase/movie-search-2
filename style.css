@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.61);
+    background-image: url(./posterTheBatman.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    color: #fefefe;
+}
+
+#app {
+    padding: 20px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 3fr 2fr;
+}
+
+.movie-search form {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.movie-search form input {
+    flex-basis: 70%;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+}
+
+.movie-search form button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.movies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.movie {
+    text-align: center;
+}
+
+.movie img {
+    width: 100%;
+}
+
+.movie-details img{
+    width: 80%;
+}
